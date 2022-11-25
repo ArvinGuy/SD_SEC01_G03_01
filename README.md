@@ -1,12 +1,26 @@
-# 🍽️🛵 273.15 Food Delivery E-Commerce App 🛵🍽️
+<p align="center" width="100%">
+<img src="https://github.com/syiraazhari/SD_SEC01_G03_01/blob/main/273.15%20Food%20Delivery%20App%20Logo%20(WITH%20BG).png?raw=true" alt="utmxjpmpp">
+</p>
 
-273.15 is a complete Multi Restaurant food delivery system developed using Laravel and Flutter Framework. Laravel (PHP Framework for Web Artisan) is a web application framework with an expressive, elegant syntax. We've already laid the foundation- freeing you to create without sweating the small things. Flutter framework created by Google is open-source mobile applcation development. It used to development. It used to develop application for Android and iOS, as well a being the primary method of creating application.
+# Installation Manual
 
-This 273.15 App Comprises of 3 Mobile Application, 2 Web Panel, 1 Website and 1 Landing-Page
+## Installation
 
-  * Customer appliation for Android,iOS and Web developed using Flutter
-  * Super Admin web panel developed using Laravel (admin can provide role base access)
-  * Restaurant web panel Developed using Laravel (owner can provide role base access)
-  * Landing Page Develiped using Laravel Blade 
+To run this program, you need to install these things:
 
+- Android Studio (preferred) or Visual Studio Code, IDE for Mobile and Web developement
+- Flutter SDK (3.3.2 or later) and JDK with path setup
+- Web hosting and cloud hosting (Cloudways preferred)
+- Cloud server requirements: Ctype PHP, JSON, Mbstring, OpenSSL, PDO, Tokenizer, XML, Zip, Fileinfo, Gd, Sodium extension
 
+### Install Android Studio
+
+Download the latest Android Studio from [Android Studio website](https://developer.android.com/studio).
+
+_Recommended version: Android Studio Dolphin 2021.3.1_
+
+### Install Flutter SDK
+
+Download the latest Flutter SDK from [Flutter SDK website](https://docs.flutter.dev/get-started/install).
+
+Follow this [video link](https://youtu.be/u0j19PsCKbc) to see installation step-by-step.
