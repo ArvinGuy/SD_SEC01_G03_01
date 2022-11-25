@@ -36,28 +36,15 @@ class ProductModel {
 }
 
 class Product {
-  int id;
-  String name;
-  String description;
-  String image;
-  int categoryId;
+  int id, categoryId, restaurantId, ratingCount, veg;
+  double price, tax, discount, avgRating, restaurantDiscount;
+  String name, description, image, discountType, availableTimeStarts,
+      availableTimeEnds, restaurantName;
+  bool scheduleOrder;
   List<CategoryIds> categoryIds;
   List<Variation> variations;
   List<AddOns> addOns;
   List<ChoiceOptions> choiceOptions;
-  double price;
-  double tax;
-  double discount;
-  String discountType;
-  String availableTimeStarts;
-  String availableTimeEnds;
-  int restaurantId;
-  String restaurantName;
-  double restaurantDiscount;
-  bool scheduleOrder;
-  double avgRating;
-  int ratingCount;
-  int veg;
 
   Product(
       {this.id,

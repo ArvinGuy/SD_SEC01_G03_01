@@ -31,38 +31,14 @@ class RestaurantModel {
 }
 
 class Restaurant {
-  int id;
-  String name;
-  String phone;
-  String email;
-  String logo;
-  String latitude;
-  String longitude;
-  String address;
-  int zoneId;
-  double minimumOrder;
-  String currency;
-  bool freeDelivery;
-  String coverPhoto;
-  bool delivery;
-  bool takeAway;
-  bool scheduleOrder;
-  double avgRating;
-  double tax;
-  int ratingCount;
-  int selfDeliverySystem;
-  bool posSystem;
-  int open;
-  bool active;
-  String deliveryTime;
+  int id, zoneId, ratingCount, selfDeliverySystem, open, veg, nonVeg, vendorId;
+  String name, phone, email, logo, latitude, longitude, address, currency,
+      coverPhoto, deliveryTime;
+  double minimumOrder, avgRating, tax, minimumShippingCharge, perKmShippingCharge;
+  bool freeDelivery, delivery, takeAway, scheduleOrder, posSystem, active;
   List<int> categoryIds;
-  int veg;
-  int nonVeg;
-  Discount discount;
   List<Schedules> schedules;
-  double minimumShippingCharge;
-  double perKmShippingCharge;
-  int vendorId;
+  Discount discount;
 
   Restaurant(
       {this.id,

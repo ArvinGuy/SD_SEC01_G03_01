@@ -1,29 +1,29 @@
 import 'package:efood_multivendor/controller/restaurant_controller.dart';
-import 'package:efood_multivendor/helper/responsive_helper.dart';
-import 'package:efood_multivendor/util/dimensions.dart';
-import 'package:efood_multivendor/util/styles.dart';
-import 'package:efood_multivendor/view/base/paginated_list_view.dart';
-import 'package:efood_multivendor/view/base/product_view.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+  import 'package:efood_multivendor/helper/responsive_helper.dart';
+  import 'package:efood_multivendor/util/dimensions.dart';
+  import 'package:efood_multivendor/util/styles.dart';
+  import 'package:efood_multivendor/view/base/paginated_list_view.dart';
+  import 'package:efood_multivendor/view/base/product_view.dart';
+  import 'package:flutter/material.dart';
+  import 'package:get/get.dart';
 
-class RestaurantProductSearchScreen extends StatefulWidget {
+  class RestaurantProductSearchScreen extends StatefulWidget {
   final String storeID;
   const RestaurantProductSearchScreen({Key key, @required this.storeID}) : super(key: key);
 
   @override
   State<RestaurantProductSearchScreen> createState() => _RestaurantProductSearchScreenState();
-}
+  }
 
-class _RestaurantProductSearchScreenState extends State<RestaurantProductSearchScreen> {
+  class _RestaurantProductSearchScreenState extends State<RestaurantProductSearchScreen> {
   final TextEditingController _searchController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
 
   @override
   void initState() {
-    super.initState();
+  super.initState();
 
-    Get.find<RestaurantController>().initSearchData();
+  Get.find<RestaurantController>().initSearchData();
   }
 
   @override

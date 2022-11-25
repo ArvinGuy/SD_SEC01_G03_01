@@ -195,44 +195,6 @@ class CartProductWidget extends StatelessWidget {
                         )),
                       ]),
                     ) : SizedBox(),
-
-                    /*addOns.length > 0 ? SizedBox(
-                      height: 30,
-                      child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        physics: BouncingScrollPhysics(),
-                        padding: EdgeInsets.only(top: Dimensions.PADDING_SIZE_SMALL),
-                        itemCount: addOns.length,
-                        itemBuilder: (context, index) {
-                          return Padding(
-                            padding: EdgeInsets.only(right: Dimensions.PADDING_SIZE_SMALL),
-                            child: Row(children: [
-                              InkWell(
-                                onTap: () {
-                                  Get.find<CartController>().removeAddOn(cartIndex, index);
-                                },
-                                child: Padding(
-                                  padding: EdgeInsets.symmetric(horizontal: 2),
-                                  child: Icon(Icons.remove_circle, color: Theme.of(context).primaryColor, size: 18),
-                                ),
-                              ),
-                              Text(addOns[index].name, style: robotoRegular.copyWith(fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL)),
-                              SizedBox(width: 2),
-                              Text(
-                                PriceConverter.convertPrice(addOns[index].price),
-                                style: robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL),
-                              ),
-                              SizedBox(width: 2),
-                              Text(
-                                '(${cart.addOnIds[index].quantity})',
-                                style: robotoRegular.copyWith(fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL),
-                              ),
-                            ]),
-                          );
-                        },
-                      ),
-                    ) : SizedBox(),*/
-
                   ],
                 ),
               ),

@@ -31,43 +31,19 @@ class PaginatedOrderModel {
     }
     return data;
   }
-
 }
 
 class OrderModel {
-  int id;
-  int userId;
-  double orderAmount;
-  double couponDiscountAmount;
-  String couponDiscountTitle;
-  String paymentStatus;
-  String orderStatus;
-  double totalTaxAmount;
-  String paymentMethod;
-  String couponCode;
-  String orderNote;
-  String orderType;
-  String createdAt;
-  String updatedAt;
-  double deliveryCharge;
-  String scheduleAt;
-  String otp;
-  String pending;
-  String accepted;
-  String confirmed;
-  String processing;
-  String handover;
-  String pickedUp;
-  String delivered;
-  String canceled;
-  String refundRequested;
-  String refunded;
-  int scheduled;
-  double restaurantDiscountAmount;
-  String failed;
-  int detailsCount;
-  double dmTips;
-  int processingTime;
+  int id, userId, scheduled, detailsCount, processingTime;
+
+  double orderAmount, totalTaxAmount, couponDiscountAmount, deliveryCharge,
+      restaurantDiscountAmount, dmTips;
+
+  String couponDiscountTitle, paymentStatus, orderStatus, paymentMethod, couponCode,
+      orderNote, orderType, createdAt, updatedAt, scheduleAt, otp, pending, accepted,
+      confirmed, processing, handover, pickedUp, delivered, canceled, refundRequested,
+      refunded, failed;
+
   DeliveryMan deliveryMan;
   Restaurant restaurant;
   AddressModel deliveryAddress;
@@ -205,20 +181,9 @@ class OrderModel {
 }
 
 class DeliveryMan {
-  int id;
-  String fName;
-  String lName;
-  String phone;
-  String email;
-  String image;
-  int zoneId;
-  int active;
-  int available;
+  int id, zoneId, active, available, ratingCount;
+  String fName, lName, phone, email, image, lat, lng, location;
   double avgRating;
-  int ratingCount;
-  String lat;
-  String lng;
-  String location;
 
   DeliveryMan(
       {this.id,

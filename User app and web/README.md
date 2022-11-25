@@ -1,4 +1,4 @@
-# 273.15 Food Delivery App
+# efood_multivendor
 
 A new Flutter application.
 

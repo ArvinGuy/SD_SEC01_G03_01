@@ -519,22 +519,6 @@ class _ProductBottomSheetState extends State<ProductBottomSheet> {
         style: robotoMedium.copyWith(color: Colors.white),
       ),
     ));
-    // Get.showSnackbar(GetSnackBar(
-    //   backgroundColor: Colors.green,
-    //   message: 'item_added_to_cart'.tr,
-    //   mainButton: TextButton(
-    //     onPressed: () => Get.toNamed(RouteHelper.getCartRoute()),
-    //     child: Text('view_cart'.tr, style: robotoMedium.copyWith(color: Theme.of(context).cardColor)),
-    //   ),
-    //   onTap: (_) => Get.toNamed(RouteHelper.getCartRoute()),
-    //   duration: Duration(seconds: 3),
-    //   maxWidth: Dimensions.WEB_MAX_WIDTH,
-    //   snackStyle: SnackStyle.FLOATING,
-    //   margin: EdgeInsets.all(Dimensions.PADDING_SIZE_SMALL),
-    //   borderRadius: 10,
-    //   isDismissible: true,
-    //   dismissDirection: DismissDirection.horizontal,
-    // ));
   }
 }
 

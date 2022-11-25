@@ -39,25 +39,6 @@ class UserController extends GetxController implements GetxService {
     return _responseModel;
   }
 
-  /*Future<ResponseModel> updateUserInfo(UserInfoModel updateUserModel, String password) async {
-    _isLoading = true;
-    update();
-    ResponseModel _responseModel;
-    Response response = await userRepo.updateProfile(updateUserModel, password, _pickedFile);
-    _isLoading = false;
-    if (response.statusCode == 200) {
-      Map map = jsonDecode(await response.body);
-      String message = map["message"];
-      _userInfoModel = updateUserModel;
-      _responseModel = ResponseModel(true, message);
-    } else {
-      _responseModel = ResponseModel(false, response.statusText);
-      print('${response.statusCode} ${response.statusText}');
-    }
-    update();
-    return _responseModel;
-  }*/
-
   Future<ResponseModel> updateUserInfo(UserInfoModel updateUserModel, String token) async {
     _isLoading = true;
     update();

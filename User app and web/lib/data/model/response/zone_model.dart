@@ -13,7 +13,10 @@ class ZoneModel {
   double minimumShippingCharge;
   double perKmShippingCharge;
 
-  ZoneModel({this.id, this.name, this.coordinates, this.status, this.createdAt, this.updatedAt, this.restaurantWiseTopic, this.customerWiseTopic, this.deliverymanWiseTopic, this.minimumShippingCharge, this.perKmShippingCharge});
+  ZoneModel({this.id, this.name, this.coordinates, this.status, this.createdAt,
+    this.updatedAt, this.restaurantWiseTopic,
+    this.customerWiseTopic, this.deliverymanWiseTopic, this.minimumShippingCharge,
+    this.perKmShippingCharge});
 
   ZoneModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];

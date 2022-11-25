@@ -37,23 +37,6 @@ class PaymentButton extends StatelessWidget {
               Text(title, style: robotoBold.copyWith(fontSize: Dimensions.fontSizeSmall, color: _selected ? Theme.of(context).primaryColor : Theme.of(context).disabledColor)),
 
             ]),
-
-            /*child: ListTile(
-              leading: Image.asset(
-                icon, width: 20, height: 20,
-                color: _selected ? Theme.of(context).primaryColor : Theme.of(context).disabledColor,
-              ),
-              title: Text(
-                title,
-                style: robotoMedium.copyWith(fontSize: Dimensions.fontSizeSmall),
-              ),
-              subtitle: Text(
-                subtitle,
-                style: robotoRegular.copyWith(fontSize: Dimensions.fontSizeExtraSmall, color: Theme.of(context).disabledColor),
-                maxLines: 1, overflow: TextOverflow.ellipsis,
-              ),
-              trailing: _selected ? Icon(Icons.check_circle, color: Theme.of(context).primaryColor) : null,
-            ),*/
           ),
         ),
       );

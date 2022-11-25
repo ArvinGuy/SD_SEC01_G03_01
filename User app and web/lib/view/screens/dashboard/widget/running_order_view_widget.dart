@@ -56,7 +56,8 @@ class RunningOrderViewWidget extends StatelessWidget {
                     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                        Row( mainAxisAlignment: MainAxisAlignment.center, children: [
                         Text('order_status'.tr + ': ', style: robotoBold.copyWith(fontSize: Dimensions.fontSizeDefault)),
-                        Text( orderController.runningOrderList != null ?orderController.runningOrderList[orderController.runningOrderIndex].orderStatus.tr : '', style: robotoBold.copyWith(fontSize: Dimensions.fontSizeLarge, color: Theme.of(context).primaryColor)),
+                        Text( orderController.runningOrderList != null ?orderController.runningOrderList[orderController.runningOrderIndex].orderStatus.tr : '',
+                            style: robotoBold.copyWith(fontSize: Dimensions.fontSizeLarge, color: Theme.of(context).primaryColor)),
                       ]) ,
                       SizedBox(height: Dimensions.PADDING_SIZE_EXTRA_SMALL),
 

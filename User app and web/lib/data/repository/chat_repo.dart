@@ -19,7 +19,8 @@ class ChatRepo {
   }
 
   Future<Response> getMessages(int offset, int userID, UserType userType, int conversationID) async {
-    return await apiClient.getData('${AppConstants.MESSAGE_LIST_URI}?${conversationID != null ? 'conversation_id' :userType == UserType.admin ? 'admin_id'
+    return await apiClient.getData('${AppConstants.MESSAGE_LIST_URI}?${conversationID != null ?
+    'conversation_id' :userType == UserType.admin ? 'admin_id'
         : userType == UserType.vendor ? 'vendor_id' : 'delivery_man_id'}=${conversationID ?? userID}&offset=$offset&limit=10');
   }
 

@@ -25,7 +25,8 @@ class CategoryRepo {
 
   Future<Response> getSearchData(String query, String categoryID, bool isRestaurant, String type) async {
     return await apiClient.getData(
-      '${AppConstants.SEARCH_URI}${isRestaurant ? 'restaurants' : 'products'}/search?name=$query&category_id=$categoryID&type=$type&offset=1&limit=50',
+      '${AppConstants.SEARCH_URI}${isRestaurant ? 'restaurants' : 'products'}'
+          '/search?name=$query&category_id=$categoryID&type=$type&offset=1&limit=50',
     );
   }
 

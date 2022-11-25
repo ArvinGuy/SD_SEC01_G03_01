@@ -60,5 +60,4 @@ class SplashController extends GetxController implements GetxService {
       update();
     }
   }
-
 }

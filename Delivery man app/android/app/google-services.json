@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1092779883124",
+    "project_id": "food-delivery-91851",
+    "storage_bucket": "food-delivery-91851.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092779883124:android:4e0d3d554b7dea82e3af21",
+        "android_client_info": {
+          "package_name": "com.ok.deliveryman_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092779883124-dosmv0v2lm512qvvthlcudk584kh4a1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6_2FQAKpt0VRYyhlN-vDZkkFFS8KGWsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092779883124-dosmv0v2lm512qvvthlcudk584kh4a1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092779883124:android:61e7166b150cd109e3af21",
+        "android_client_info": {
+          "package_name": "com.ok.fooddelivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092779883124-dosmv0v2lm512qvvthlcudk584kh4a1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6_2FQAKpt0VRYyhlN-vDZkkFFS8KGWsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092779883124-dosmv0v2lm512qvvthlcudk584kh4a1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

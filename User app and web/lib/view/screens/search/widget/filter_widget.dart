@@ -102,7 +102,7 @@ class FilterWidget extends StatelessWidget {
                   searchController.toggleAvailableFoods();
                 },
               ),
-              CustomCheckBox(
+                         CustomCheckBox(
                 title: isRestaurant ? 'discounted_restaurants'.tr : 'discounted_foods'.tr,
                 value: searchController.isDiscountedFoods,
                 onClick: () {

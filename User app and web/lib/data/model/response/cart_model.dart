@@ -1,4 +1,3 @@
-
 import 'package:efood_multivendor/data/model/response/product_model.dart';
 
 class CartModel {

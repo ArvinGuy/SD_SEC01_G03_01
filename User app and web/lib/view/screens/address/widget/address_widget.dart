@@ -55,10 +55,6 @@ class AddressWidget extends StatelessWidget {
                 ),
               ]),
             ),
-            // fromAddress ? IconButton(
-            //   icon: Icon(Icons.edit, color: Colors.blue, size: ResponsiveHelper.isDesktop(context) ? 35 : 25),
-            //   onPressed: onEditPressed,
-            // ) : SizedBox(),
             fromAddress ? IconButton(
               icon: Icon(Icons.delete, color: Colors.red, size: ResponsiveHelper.isDesktop(context) ? 35 : 25),
               onPressed: onRemovePressed,

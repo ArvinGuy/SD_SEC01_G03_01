@@ -48,10 +48,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
     Future.delayed(Duration(seconds: 1), () {
       setState(() {});
     });
-
-    /*if(GetPlatform.isMobile) {
-      NetworkInfo.checkConnectivity(_scaffoldKey.currentContext);
-    }*/
   }
 
   @override
@@ -84,7 +80,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         key: _scaffoldKey,
 
         floatingActionButton: GetBuilder<OrderController>(builder: (orderController) {
-            return ResponsiveHelper.isDesktop(context) ? SizedBox() : (orderController.isRunningOrderViewShow && (orderController.runningOrderList != null && orderController.runningOrderList.length > 0))
+            return ResponsiveHelper.isDesktop(context) ? SizedBox() :
+            (orderController.isRunningOrderViewShow && (orderController.runningOrderList != null && orderController.runningOrderList.length > 0))
             ? SizedBox.shrink() : FloatingActionButton(
               elevation: 5,
               backgroundColor: _pageIndex == 2 ? Theme.of(context).primaryColor : Theme.of(context).cardColor,

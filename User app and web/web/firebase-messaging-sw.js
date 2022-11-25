@@ -2,12 +2,12 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js");
 
 firebase.initializeApp({
-  apiKey: "AIzaSyCeaw_gVN0iQwFHyuF8pQ6PbVDmSVQw8AY",
-  authDomain: "stackfood-bd3ee.firebaseapp.com",
-  projectId: "stackfood-bd3ee",
-  storageBucket: "stackfood-bd3ee.appspot.com",
-  messagingSenderId: "1049699819506",
-  appId: "1:1049699819506:web:a4b5e3bedc729aab89956b",
+  apiKey: "AIzaSyCSuSgEFWTJejR9-FSNldBNWUvnfgWkFPA",
+  authDomain: "food-delivery-91851.firebaseapp.com",
+  projectId: "food-delivery-91851",
+  storageBucket: "food-delivery-91851.appspot.com",
+  messagingSenderId: "1092779883124",
+  appId: "1:1092779883124:web:9d815b502a089517e3af21",
   databaseURL: "...",
 });
 

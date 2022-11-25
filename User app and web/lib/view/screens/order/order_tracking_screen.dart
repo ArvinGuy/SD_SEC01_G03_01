@@ -78,17 +78,6 @@ class _OrderTrackingScreenState extends State<OrderTrackingScreen> with WidgetsB
         if(orderController.trackModel != null) {
           _track = orderController.trackModel;
 
-          /*if(_controller != null && GetPlatform.isWeb) {
-            if(_track.deliveryAddress != null) {
-              _controller.showMarkerInfoWindow(MarkerId('destination'));
-            }
-            if(_track.restaurant != null) {
-              _controller.showMarkerInfoWindow(MarkerId('restaurant'));
-            }
-            if(_track.deliveryMan != null) {
-              _controller.showMarkerInfoWindow(MarkerId('delivery_boy'));
-            }
-          }*/
         }
 
         return _track != null ? Center(child: SizedBox(width: Dimensions.WEB_MAX_WIDTH, child: Stack(children: [

@@ -22,20 +22,13 @@ class PlaceDetailsModel {
 
 class Result {
   List<AddressComponents> addressComponents;
-  String adrAddress;
-  String formattedAddress;
+  String adrAddress, formattedAddress, icon, iconBackgroundColor, iconMaskBaseUri,
+      name, placeId, reference, url, website;
   Geometry geometry;
-  String icon;
-  String iconBackgroundColor;
-  String iconMaskBaseUri;
-  String name;
-  List<Photos> photos;
-  String placeId;
-  String reference;
-  List<String> types;
-  String url;
   int utcOffset;
-  String website;
+  
+  List<Photos> photos;
+  List<String> types;
 
   Result(
       {this.addressComponents,

@@ -83,7 +83,4 @@ class WalletController extends GetxController implements GetxService{
     _isLoading = false;
     update();
   }
-
-
-
 }

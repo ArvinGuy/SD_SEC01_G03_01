@@ -34,10 +34,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: FirebaseOptions(
-      apiKey: 'AIzaSyCeaw_gVN0iQwFHyuF8pQ6PbVDmSVQw8AY',
+      apiKey: 'AIzaSyD6_2FQAKpt0VRYyhlN-vDZkkFFS8KGWsM',
       appId: '1:1049699819506:web:a4b5e3bedc729aab89956b',
-      messagingSenderId: '1049699819506',
-      projectId: 'stackfood-bd3ee',
+      messagingSenderId: '1092779883124',
+      projectId: 'food-delivery-91851',
     ));
   }else {
     await Firebase.initializeApp();
