@@ -2,6 +2,8 @@
 <img src="https://github.com/syiraazhari/SD_SEC01_G03_01/blob/main/273.15%20Food%20Delivery%20App%20Logo%20(WITH%20BG).png?raw=true" alt="utmxjpmpp">
 </p>
 
+# <p align="center">🍽️🛵 273.15 Food Delivery E-Commerce App 🛵🍽️</p>
+
 # Installation Manual
 
 ## Installation
@@ -27,7 +29,7 @@ _Recommended version: Android Studio Dolphin 2021.3.1_
 
 Download the latest Flutter SDK from [Flutter SDK website](https://docs.flutter.dev/get-started/install).
 
-Follow this [video link](https://youtu.be/u0j19PsCKbc) to see installation step-by-step.
+Follow this [video link](https://youtu.be/u0j19PsCKbc) to see the installation step-by-step.
 
 <p align="center">
 <img src="https://github.com/syiraazhari/SD_SEC01_G03_01/blob/main/INSTALLER/assets/screenshot%20flutter%20installation.png?raw=true">
@@ -80,3 +82,53 @@ For example: _yourdomain.com_ OR _xyz.yourdomain.com_. Make sure SSL certificate
 <p align="center">
 <img src="https://github.com/syiraazhari/SD_SEC01_G03_01/blob/main/INSTALLER/assets/step%208.png?raw=true">
 </p>
+
+# Link of Github for source code
+[Source code](https://github.com/syiraazhari/SD_SEC01_G03_01)
+
+# Link of Website
+[🍽 273.15 Food Delivery](https://273-15fooddelivery.store/)
+
+[🛠 Admin Panel](https://admin.273-15fooddelivery.store/admin)
+
+
+# App build & release
+
+## Run an existing flutter project on IDE
+Navigate the extracted project file and choose `User app and web`, and then follow this [video](https://youtu.be/a-BywlH_DcM?t=73) for the setup.
+
+## Build for Android
+For debug build, you can run command:
+`flutter build apk`
+
+
+# List of Username and Password
+
+## Admin User
+
+    Username: admin@273-15fooddelivery.store
+    Password: adminfooddeliveryapp
+    
+## Customer User
+
+    Username (phone number): +60122780851
+    Password: ahmadnabil1234
+    
+    Username (phone number): +60137239454
+    Password: aqmar12
+
+## Restaurant Owner User
+
+### KFC
+    Username: kfcadmin@gmail.com
+    Password: kfcadmin
+    
+### Pizzahut
+    Username: pizzahut@admin.com
+    Password: Pizzahut123
+    
+## Restaurant Employee User
+
+### KFC
+    Username: kfcwaiter@employee.com
+    Password: kfcwaiter
