@@ -86,6 +86,9 @@ For example: _yourdomain.com_ OR _xyz.yourdomain.com_. Make sure SSL certificate
 # Link of Github for source code
 [Source code](https://github.com/syiraazhari/SD_SEC01_G03_01)
 
+### Cloud server hosting (Cloudways)
+<img src="https://github.com/syiraazhari/SD_SEC01_G03_01/blob/main/INSTALLER/assets/screenshot%20of%20cloudways.png">
+
 # Link of Website
 [🍽 273.15 Food Delivery](https://273-15fooddelivery.store/)
 
